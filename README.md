@@ -23,7 +23,7 @@ understood.
 ├── data/                # Directory containing participant (.csv)
 ├── .gitignore           # Git ignore file listing files/folders to exclude from version control
 ├── DDM-figures.ipynb    # Notebook for generating DDM-related figures from simulation results
-├── figures.ipynb       # Data visualizations in the manuscript
+├── figures.ipynb        # Data visualizations in the manuscript
 ├── fit-DDM.py           # Python script to fit the DDM to behavioral data
 ├── run_DDM.ipynb        # Main notebook for running DDM simulation
 ├── stats.ipynb          # Statistical analysis of behavioral results
