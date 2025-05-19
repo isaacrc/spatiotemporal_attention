@@ -20,13 +20,13 @@ understood.
 
 ## Repository Structure
 ```text
-├── data/                # Directory containrparticipant al data (.csv)
+├── data/                # Directory containing participant (.csv)
 ├── .gitignore           # Git ignore file listing files/folders to exclude from version control
 ├── DDM-figures.ipynb    # Notebook for generating DDM-related figures from simulation results
-├── figures.ipyn b    # Data ta visualizations in the manuscrons (e.g., onset vs RT)
+├── figures.ipyn b       # Data visualizations in the manuscript
 ├── fit-DDM.py           # Python script to fit the DDM to behavioral data
-├── run_DDM.ipynb        # Main notebook for running DDM simulati
-├── stats.ipynb          # Statistical anais lysof behaviorof results
+├── run_DDM.ipynb        # Main notebook for running DDM simulation
+├── stats.ipynb          # Statistical analysis of behavioral results
 ├── README.md            # This file
 
 
