@@ -1,6 +1,6 @@
 # Spatiotemporal Attention and Decision Making
 
-This repository contains figures and analyses for the manuscript: Linear and Nonlinear Effects of Spatial and 
+This repository contains figures and analyses from the manuscript: Linear and Nonlinear Effects of Spatial and 
 Temporal Attention: Human Data and Drift Diffusion Model. 
 
 Abstract:
@@ -20,13 +20,13 @@ understood.
 
 ## Repository Structure
 ```text
-├── data/                # Directory containing raw or preprocessed experimental data (.csv)
+├── data/                # Directory containing red experimental data (.csv)
 ├── .gitignore           # Git ignore file listing files/folders to exclude from version control
 ├── DDM-figures.ipynb    # Notebook for generating DDM-related figures from simulation results
-├── figures.ipynb        # Additional plots or exploratory visualizations (e.g., onset vs RT)
+├── figures.ipynb       Data visualizations in the manuscriptons (e.g., onset vs RT)
 ├── fit-DDM.py           # Python script to fit the DDM to behavioral data
 ├── run_DDM.ipynb        # Main notebook for running DDM simulations across experimental conditions
-├── stats.ipynb          # Statistical analyses and summaries of results
+├── stats.ipynb          # Statistical analysof behavioral of results
 ├── README.md            # This file
 
 
