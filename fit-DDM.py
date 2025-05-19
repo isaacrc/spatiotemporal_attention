@@ -69,11 +69,10 @@ def biased_random():
 def signal(time, onset):
     return 1 if time >= onset else 0
 
-
-# Cost function (i.e. cost of attending)
+# Cost of attending)
 def cost_func(p1, x): # this produced the upwards towards the end of the 10th
     max_value = 10
-    c_func = math.exp(p1 * x - 2) # range .2-.45
+    c_func = 0.06 * math.exp(p1 * x) # range .2-.45
     cost = c_func / max_value
     return cost
 ## Benefit of attending
@@ -90,7 +89,7 @@ def gain(onset, task, prob_param, cost_param):
 def cost_function(params, actual_data):
     decision_threshold, initial_bias, prob_param, cost_param, noise_param = params
     print(params)
-    simulated_data = run_ddm_simulation(initial_bias, decision_threshold, prob_param, cost_param, noise_param, actual_data)  # Your DDM simulation function
+    simulated_data = run_ddm_simulation(initial_bias, decision_threshold, prob_param, cost_param, noise_param, actual_data)
     
 
     # Calculate the error between actual and simulated reaction times
@@ -199,7 +198,6 @@ def run_ddm_simulation(initial_bias, decision_threshold, prob_param, cost_param,
 
 # Assuming you have actual participant data in a DataFrame called participant_data
 actual_data = participant_data  # e.g., your DataFrame with reaction times and other metrics
-
 
 
 
