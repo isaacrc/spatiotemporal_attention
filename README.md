@@ -1,4 +1,4 @@
-# Spatiotemporal Attention and Decision Making
+# Linear and Nonlinear Effects of Spatial and Temporal Attention
 
 This repository contains figures and analyses from the manuscript: Linear and Nonlinear Effects of Spatial and 
 Temporal Attention: Human Data and Drift Diffusion Model. 
