@@ -20,7 +20,8 @@ understood.
 
 ## Repository Structure
 ```text
-├── data/                # Directory containing participant (.csv)
+├── data/                # Directory containing participant data (.csv)
+├── task/                # Directory containing psychopy task scripts / data
 ├── .gitignore           # Git ignore file listing files/folders to exclude from version control
 ├── DDM-figures.ipynb    # Notebook for generating DDM-related figures from simulation results
 ├── figures.ipynb        # Data visualizations in the manuscript
